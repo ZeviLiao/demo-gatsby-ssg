@@ -1,5 +1,12 @@
 
 
+### develop
+
+```
+npm run develop
+```
+
+
 ### build a site
 
 https://ithelp.ithome.com.tw/articles/10213883

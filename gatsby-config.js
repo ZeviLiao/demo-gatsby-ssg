@@ -5,7 +5,7 @@
  */
 
 module.exports = {
-  siteMetadata:{
+  siteMetadata: {
     title: 'Full Stack Bootcamp',
     author: 'zevi liao'
   },
