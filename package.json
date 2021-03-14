@@ -6,7 +6,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
-    "develop": "env-cmd -f .env.development gatsby develop",
+    "develop": "env-cmd -f .env.development gatsby develop --port 4000",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -15,6 +15,8 @@
   },
   "dependencies": {
     "gatsby": "^3.0.4",
+    "gatsby-source-filesystem": "^3.0.0",
+    "gatsby-transformer-remark": "^3.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1"
   },
