@@ -5,6 +5,10 @@
  */
 
 module.exports = {
+  siteMetadata:{
+    title: 'Full Stack Bootcamp',
+    author: 'zevi liao'
+  },
   /* Your site config here */
   plugins: [],
 }
